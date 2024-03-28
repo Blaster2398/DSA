@@ -1,0 +1,15 @@
+Enqueue: Add an element to the back of the queue. Function: void enqueue(T element);
+
+Dequeue: Remove the element from the front of the queue. Function: void dequeue();
+
+getFront: Get the element at the front of the queue without removing it. Function: T front();
+
+getRear: 
+
+Size: Get the number of elements in the queue. Function: int size();
+
+Empty: Check if the queue is empty. Function: bool empty(); 
+
+
+// TODO: important note that queue is implemented using either
+list or dequeue as it is a containner adapter
