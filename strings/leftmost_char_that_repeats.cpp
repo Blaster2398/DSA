@@ -53,7 +53,7 @@ using namespace std ;
 //better approach 
 const int CHAR =256;
 
-int LMBTR(string &s1){
+int LMCTR(string &s1){
     int count[CHAR] ={0};
     f(i,0,s1.length()){
         count[s1[i]]++;
@@ -71,7 +71,7 @@ int main(){
     fast_fast
     string s1;
     cin>>s1;
-    int res= LMBTR(s1);
+    int res= LMCTR(s1);
     cout<<res<<endl;
 }
 

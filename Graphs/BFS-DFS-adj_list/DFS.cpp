@@ -30,7 +30,10 @@ int main(){
         cin >> u >> v;
         addEdge(adj, u, v);
     }
-    bool visited[V] = {false};
+    bool visited[V];
+    for(int i =0; i < V; i++){
+        visited[i] = false;
+    }
     
     int s;
     cout << "Enter the starting node ";
